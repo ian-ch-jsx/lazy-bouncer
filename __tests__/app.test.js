@@ -27,7 +27,6 @@ const registerAndLogin = async (userProps = {}) => {
   await agent.post('/api/v1/users/sessions').send({ email, password });
   return [agent, user];
 };
-asdasdasdasd;
 
 describe('lazy-bouncer routes', () => {
   beforeEach(() => {
